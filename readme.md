@@ -12,3 +12,17 @@
 6. Open up two command prompts. In one, run ```webpack -w```. This lets webpack watch for changes to your files. After any saved changes, webpack automatically runs and updates your ```bundle.js``` file.
 7. In the other command prompt run ```npm start``` or ```node server.js```. These commands do the same thing: Starting your server to host the web app.
 8. Navigate to ```localhost:3000``` to see the app in action
+
+
+Version notes:
+Given more development time, later versions could include:
+
+Language support – user can change language. To simplify development, only use languages available from the OpenWeatherMap API.
+Location support – user can change location of forecast (free text typing + auto recognition of city by parsing restricted list of available cities).
+Additional data – ability to show additional information, such as humidity and hourly temperatures.
+More detailed forecasts for days 2 – 5.
+Previous state restoration on initial load.
+Ability to change location displayed.
+User error messages.
+Automatically refresh data every 15 minutes.
+User Feedback/ Suggestion message.
