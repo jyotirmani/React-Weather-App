@@ -15,12 +15,13 @@
 
 
 Version notes:
+
 Given more development time, later versions could include:
 
 Language support – user can change language. To simplify development, only use languages available from the OpenWeatherMap API.
 Location support – user can change location of forecast (free text typing + auto recognition of city by parsing restricted list of available cities).
 Additional data – ability to show additional information, such as humidity and hourly temperatures.
-More detailed forecasts for days 2 – 5.
+More detailed forecasts.
 Previous state restoration on initial load.
 Ability to change location displayed.
 User error messages.
